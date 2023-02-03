@@ -5,7 +5,7 @@ const ProductSchema = require('./Models/ProductSchema') //import model to define
 const app = express() //initilaze express
 const PORT = process.env.PORT || 5000 //define server port
 
-const SERVER_URI =  `mongodb+srv://YASEENADMIN:oeegobepllb@cluster0.zr5rg.mongodb.net/ecom` //mongodb connection uri
+const SERVER_URI =  `` //mongodb connection uri
 
 //make mongodb connection using mongoose
 mongoose.connect(SERVER_URI)
